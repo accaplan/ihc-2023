@@ -1,6 +1,21 @@
 @tailwind base;
 
 @layer base {
+  @font-face {
+    font-family: "Compagnon-Roman";
+    src: url("/fonts/Compagnon-Roman.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Compagnon-Light";
+    src: url("/fonts/Compagnon-Light.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }  
+
   html {
     @apply bg-pageText text-[10px];
   }
@@ -18,7 +33,7 @@
   }
 
   p {
-    @apply m-0 text-16 leading-150;
+    @apply m-0 text-16 leading-150 font-monospace;
   }
 
   strong {
@@ -42,7 +57,7 @@
 
   h3,
   .is-h3 {
-    @apply m-0 text-30 font-normal leading-125;
+    @apply m-0 text-30 font-normal leading-125 font-semibold;
   }
 
   h4,

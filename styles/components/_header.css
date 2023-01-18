@@ -65,7 +65,7 @@ a[href="#content"].skip-link {
     @apply clean-btn block p-8 bg-transparent;
 
     svg {
-      @apply block fill-current w-auto h-48;
+      @apply block fill-current w-auto h-25;
     }
   }
 }

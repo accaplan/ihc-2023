@@ -1,30 +1,23 @@
 /* Variables */
 :root {
-  --black: #000000;
-  --white: #ffffff;
+  --black: #6d4d30;
+  --white: #fffffe;
 
   --black-hsl: 0, 0%, 0%;
   --white-hsl: 0, 0%, 100%;
 
-  --pageBG: #f4f4f0;
-  --pageText: #000000;
+  --pageBG: #fffffe;
+  --pageText: #6d4d30;
 
   --pageBG-hsl: 60, 14%, 95%;
   --pageText-hsl: 0, 0%, 0%;
 }
 
 [data-theme='dark'] {
-  --pageBG: #000000;
-  --pageText: #f4f4f0;
+  --pageBG: #6d4d30;
+  --pageText: #fffffe;
 
   --pageBG-hsl: 0, 0%, 0%;
   --pageText-hsl: 60, 14%, 95%;
 }
 
-[data-theme='metal'] {
-  --pageBG: #000000;
-  --pageText: #FB1B15;
-
-  --pageBG-hsl: 0, 0%, 0%;
-  --pageText-hsl: 2, 92%, 53%;
-}

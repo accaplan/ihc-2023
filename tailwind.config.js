@@ -89,6 +89,9 @@ module.exports = {
     extend: {
       fontFamily: {
         inherit: 'inherit',
+        semibold: ['Compagnon-Roman', 'Courier','serif'],
+        sans: ['neue-haas-unica','Helvetica Neue', 'sans-serif'],
+        monospace: ['Compagnon-Light', 'Courier New','monospace'],
       },
       maxWidth: {
         xs: '20rem',
