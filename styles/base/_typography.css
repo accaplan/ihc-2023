@@ -57,7 +57,7 @@
 
   h3,
   .is-h3 {
-    @apply m-0 text-30 font-normal leading-125 font-semibold;
+    @apply m-0 text-30 font-normal leading-125;
   }
 
   h4,
