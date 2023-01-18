@@ -5,7 +5,7 @@
     "dataset": "production"
   },
   "project": {
-    "name": "HULL",
+    "name": "Idle Hours Company",
     "basePath": "/studio"
   },
   "plugins": [
