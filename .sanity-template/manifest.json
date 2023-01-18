@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "title": "HULL – Shopify Starter",
-  "description": "Headless Shopify starter powered by Next.js + Sanity.io",
+  "title": "Idle Hours Company",
+  "description": "Idle workwear for leisure time.",
   "previewMedia": {
     "type": "image",
-    "src": ".sanity-template/assets/HULL-cover.png",
-    "alt": "HULL"
+    "src": ".sanity-template/assets/IDLE_share.png",
+    "alt": "Idle hours"
   },
   "technologies": [
     {

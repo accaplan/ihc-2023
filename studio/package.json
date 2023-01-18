@@ -1,9 +1,9 @@
 {
-  "name": "hull",
+  "name": "Idle Hours Co.",
   "private": true,
   "version": "1.0.0",
   "main": "package.json",
-  "author": "Nick DiMatteo <hello@nickdimatteo.com>",
+  "author": "Ash Caplan <ash@idlehours.co>",
   "scripts": {
     "build": "sanity build",
     "dev": "sanity start",
