@@ -90,8 +90,9 @@ module.exports = {
       fontFamily: {
         inherit: 'inherit',
         semibold: ['Compagnon-Roman', 'Courier','serif'],
-        sans: ['neue-haas-unica','Helvetica Neue', 'sans-serif'],
+        sans: ['ApfelGrotezk-Regular','neue-haas-unica','Helvetica Neue', 'sans-serif'],
         monospace: ['Compagnon-Light', 'Courier New','monospace'],
+        display: ['ApfelGrotezk-Brukt', 'Courier New','monospace'],
       },
       maxWidth: {
         xs: '20rem',
