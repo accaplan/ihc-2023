@@ -65,9 +65,9 @@ const Collection = ({ data = {} }) => {
     (f) => !['page', 'sort'].includes(f.name)
   )
   const activeFilters = currentFilters.map((filter) => {
-    const validOptions = filterGroups
-      .find((g) => g.slug === filter.name)
-      ?.options.map((o) => o.slug)
+    const validOptions = (
+      filterGroups.find((g) => g.slug === filter.name)?.options || []
+    ).map((o) => o.slug)
 
     const currentOptions = Array.isArray(filter.value)
       ? filter.value

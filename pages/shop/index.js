@@ -18,6 +18,8 @@ const Shop = ({ data }) => {
     )
   }
 
+  console.log('page.products', page.products)
+
   return (
     <Layout site={site} page={page}>
       {page.modules?.map((module, key) => (
