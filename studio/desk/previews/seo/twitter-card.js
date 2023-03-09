@@ -13,8 +13,8 @@ const urlFor = source => {
 }
 
 const author = {
-  name: 'Nick DiMatteo',
-  handle: 'ndimatteo',
+  name: 'Idle Hours Co.',
+  handle: 'leisurecoop',
   image:
     'https://pbs.twimg.com/profile_images/1484424879265005569/3O5R2NCp_400x400.jpg'
 }
